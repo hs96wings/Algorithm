@@ -19,6 +19,13 @@ int main() {
 }
 ```
 
+```python
+n = int(input())
+
+for i in range(1, 10):
+    print(n, '*', i, '=', n * i)
+```
+
 ---
 
 ### [10950번 A+B - 3](https://www.acmicpc.net/problem/10950)
@@ -39,6 +46,14 @@ int main() {
     }
     return 0;
 }
+```
+
+```python
+n = int(input())
+
+for i in range(0, n):
+    a, b = map(int, input().split())
+    print(a + b)
 ```
 
 ---
@@ -74,6 +89,22 @@ int main() {
     cout << n * (n + 1) / 2 << endl;
     return 0;
 }
+```
+
+```python
+n = int(input())
+s = 0
+
+for i in range(1, n+1):
+    s += i
+print(s)
+
+```
+
+```python
+# 반복문 없이
+n = int(input())
+print(n * (n + 1) // 2)
 ```
 
 ---
@@ -112,6 +143,16 @@ int main() {
 }
 ```
 
+```python
+import sys
+n = int(sys.stdin.readline())
+
+for i in range(0, n):
+    a, b = map(int, sys.stdin.readline().split())
+    print(a + b)
+
+```
+
 ---
 
 ### [2741번 N 찍기](https://www.acmicpc.net/problem/2741)
@@ -133,6 +174,13 @@ int main() {
 }
 ```
 
+```python
+n = int(input())
+
+for i in range(1, n+1):
+    print(i)
+```
+
 ---
 
 ### [2742번 기찍 N](https://www.acmicpc.net/problem/2742)
@@ -152,6 +200,13 @@ int main() {
 
     return 0;
 }
+```
+
+```python
+n = int(input())
+
+for i in range(0, n):
+    print(n - i)
 ```
 
 ---
@@ -181,6 +236,14 @@ int main() {
 }
 ```
 
+```python
+n = int(input())
+
+for i in range(1, n+1):
+    a, b = map(int, input().split())
+    print("Case #{}: {}".format(i, a+b))
+```
+
 ---
 
 ### [11022 A+B - 8](https://www.acmicpc.net/problem/11022)
@@ -208,6 +271,14 @@ int main() {
 }
 ```
 
+```python
+n = int(input())
+
+for i in range(1, n+1):
+    a, b = map(int, input().split())
+    print("Case #{}: {} + {} = {}".format(i, a, b, a+b))
+```
+
 ---
 
 ### [2438번 별 찍기 - 1](https://www.acmicpc.net/problem/2438)
@@ -231,6 +302,12 @@ int main() {
 
     return 0;
 }
+```
+
+```python
+n = int(input())
+for i in range(1, n+1):
+    print('*' * i)
 ```
 
 ---
@@ -262,6 +339,13 @@ int main() {
 }
 ```
 
+```python
+n = int(input())
+for i in range(1, n+1):
+    print(' ' * (n - i), end='')
+    print('*' * i)
+```
+
 ---
 
 ### [10871번 X보다 작은 수](https://www.acmicpc.net/problem/10871)
@@ -286,4 +370,8 @@ int main() {
 
     return 0;
 }
+```
+
+```python
+
 ```
