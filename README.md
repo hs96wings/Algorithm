@@ -4,19 +4,23 @@
 
 ### Baekjoon
 
+- 단계별로 풀어보기와 solved.ac에 같은 문제가 있으면 단계별 문제에 정리됨
+
 #### 단계별로 풀어보기
 
-- [01 입출력과 사칙연산](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/01%20%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0.md)
+- [01 입출력과 사칙연산 (14 / 14)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/01%20%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0.md)
 
-- [02 if문](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/02%20if%EB%AC%B8.md)
+- [02 조건문 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/02%20if%EB%AC%B8.md)
 
-- [03 반복문](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/03%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
+- [03 반복문 (14 / 14)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/03%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
 
-- [04 1차원 배열](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/04%201%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4.md)
+- [04 1차원 배열 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/04%201%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4.md)
 
-- [05 함수](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/05%20%ED%95%A8%EC%88%98.md)
+- [05 함수 (3 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/05%20%ED%95%A8%EC%88%98.md)
 
-- [06 문자열](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/06%20%EB%AC%B8%EC%9E%90%EC%97%B4.md)
+- [06 문자열 (10, c++: 7 / 10)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/06%20%EB%AC%B8%EC%9E%90%EC%97%B4.md)
+
+- [07 기본 수학 1 (3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/07%20%EA%B8%B0%EB%B3%B8%20%EC%88%98%ED%95%99%201.md)
 
 #### solved.ac
 
