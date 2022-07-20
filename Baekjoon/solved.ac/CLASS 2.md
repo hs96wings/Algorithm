@@ -100,6 +100,91 @@ while True:
 
 ---
 
+### [10250번 ACM 호텔](https://www.acmicpc.net/problem/10250)
+
+초기에 모든 방이 비어있다고 가정하에 이 정책에 따라 N 번째로 도착한 손님에게 배정될 방 번호를 계산하는 프로그램이다.  
+첫 번째 손님은 101 호, 두 번째 손님은 201 호 등과 같이 배정한다.  
+그림 1 의 경우를 예로 들면, H = 6이므로 10 번째 손님은 402 호에 배정해야 한다.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cin.tie(NULL);
+
+    int t;
+    int h, w, n, i;
+    int room, floor;
+
+    cin >> t;
+
+    for (i = 0; i < t; ++i) {
+        cin >> h >> w >> n;
+
+        if (n % h == 0) {
+            room = n / h;
+            floor = h;
+        } else {
+            room = n / h + 1;
+            floor = n % h;
+        }
+        cout << floor * 100 + room << '\n';
+    }
+
+    return 0;
+}
+```
+
+```python
+import sys
+
+t = int(sys.stdin.readline().rstrip())
+
+for _ in range(t):
+    h, w, n = map(int, sys.stdin.readline().rstrip().split())
+
+    if n % h == 0:
+        room = n // h
+        floor = h
+    else:
+        room = n // h + 1
+        floor = n % h
+
+    print(floor * 100 + room)
+```
+
+---
+
+### [2292번 벌집](https://www.acmicpc.net/problem/2292)
+
+위의 그림과 같이 육각형으로 이루어진 벌집이 있다.  
+그림에서 보는 바와 같이 중앙의 방 1부터 시작해서 이웃하는 방에 돌아가면서 1씩 증가하는 번호를 주소로 매길 수 있다.  
+숫자 N이 주어졌을 때, 벌집의 중앙 1에서 N번 방까지 최소 개수의 방을 지나서 갈 때  
+몇 개의 방을 지나가는지(시작과 끝을 포함하여)를 계산하는 프로그램을 작성하시오.  
+예를 들면, 13까지는 3개, 58까지는 5개를 지난다.
+
+```text
+처음 1개를 제외하고는 방이 6의 배수만큼 늘어난다
+```
+
+```python
+import sys
+n = int(sys.stdin.readline())
+cnt = 1
+hive = 6
+hive_cnt = 1
+
+while n > hive_cnt:
+    cnt += 1
+    hive_cnt += hive
+    hive += 6
+print(cnt)
+```
+
+---
+
 ### [2798번 블랙잭](https://www.acmicpc.net/problem/2798)
 
 N장의 카드에 써져 있는 숫자가 주어졌을 때, M을 넘지 않으면서 M에 최대한 가까운 카드 3장의 합을 구해 출력하시오.
@@ -133,6 +218,66 @@ lcm = a * b // gcd
 
 print(gcd)
 print(lcm)
+```
+
+---
+
+### [10989번 수 정렬하기 3](https://www.acmicpc.net/problem/10989)
+
+N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로그램을 작성하시오.
+
+```text
+list 전부 넣고 sort() 쓰니 메모리 초과 오류 나와서
+dict 사용하여 빈도수 체크하고 빈도만큼 출력하게 함
+```
+
+```python
+import sys
+
+n = int(sys.stdin.readline())
+data = dict()
+
+for i in range(n):
+    t = int(sys.stdin.readline())
+    if t in data:
+        data[t] += 1
+    else:
+        data[t] = 1
+
+data = sorted(data.items())
+
+for k, v in data:
+    for _ in range(v):
+        print(k)
+```
+
+---
+
+### [2751번 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
+
+N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로그램을 작성하시오.
+
+이 수는 절댓값이 1,000,000보다 작거나 같은 정수이다.  
+수는 중복되지 않는다.
+
+```text
+10989번과 같은 코드로 풀리긴 했는데 '수는 중복되지 않는다'를 늦게 봐서 그냥 리스트에 넣고 정렬함
+10989번이 더 어려운 거 같음
+```
+
+```python
+import sys
+
+n = int(sys.stdin.readline())
+data = []
+
+for _ in range(n):
+    data.append(int(sys.stdin.readline()))
+
+data.sort()
+
+for i in range(n):
+    print(data[i])
 ```
 
 ---
