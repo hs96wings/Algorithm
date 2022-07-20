@@ -22,6 +22,24 @@
 
 - [07 기본 수학 1 (3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/07%20%EA%B8%B0%EB%B3%B8%20%EC%88%98%ED%95%99%201.md)
 
+- [09 재귀 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/09%20%EC%9E%AC%EA%B7%80.md)
+
+- [10 브루트 포스 (1, c++: 0 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/10%20%EB%B8%8C%EB%A3%A8%ED%8A%B8%20%ED%8F%AC%EC%8A%A4.md)
+
+- [12 집합과 맵 (3, c++: 0 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/12%20%EC%A7%91%ED%95%A9%EA%B3%BC%20%EB%A7%B5.md)
+
+- [13 기하 1 (5, c++: 3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/13%20%EA%B8%B0%ED%95%98%201.md)
+
+- [14 정수론 및 조합론 (2, c++: 0 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/14%20%EC%A0%95%EC%88%98%20%EB%B0%8F%20%EC%A1%B0%ED%95%A9%EB%A1%A0.md)
+
+- [15 백트래킹 (3, c++: 0 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/15%20%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9.md)
+
+- [18 그리디 알고리즘 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/18%20%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+
+- [19 스택 (2 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20스택.md)
+
+- [20 큐, 덱 (3, c++: 2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
+
 #### solved.ac
 
 - [새싹](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/%EC%83%88%EC%8B%B9.md)

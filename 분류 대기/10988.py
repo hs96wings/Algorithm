@@ -1,3 +1,5 @@
+# 10988번 팰린드롬인지 확인하기
+
 import sys
 
 s = sys.stdin.readline().rstrip()
