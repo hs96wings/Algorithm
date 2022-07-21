@@ -181,6 +181,58 @@ for i in data:
 
 ---
 
+### [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+
+2차원 평면 위의 점 N개가 주어진다.  
+좌표를 x좌표가 증가하는 순으로, x좌표가 같으면 y좌표가 증가하는 순서로 정렬한 다음 출력하는 프로그램을 작성하시오.
+
+```python
+n = int(input())
+
+graph = []
+for _ in range(n):
+    x, y = map(int, input().split())
+    graph.append([x, y])
+
+graph = sorted(graph, key=lambda x: x[1])
+graph = sorted(graph, key=lambda x: x[0])
+
+for x, y in graph:
+    print(x, y)
+```
+
+---
+
+### [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)
+
+2차원 평면 위의 점 N개가 주어진다.  
+좌표를 y좌표가 증가하는 순으로, y좌표가 같으면 x좌표가 증가하는 순서로 정렬한 다음 출력하는 프로그램을 작성하시오.
+
+```text
+11650 문제와 비교해서 정렬 순서만 바꿔주면 된다
+11650번 문제 80%에서 엄청 오래 걸리길래 입력시간이라도 줄여보고자
+sys.stdin.readline() 사용했다
+```
+
+```python
+import sys
+
+n = int(sys.stdin.readline().rstrip())
+
+graph = []
+for _ in range(n):
+    x, y = map(int, sys.stdin.readline().rstrip().split())
+    graph.append([x, y])
+
+graph = sorted(graph, key=lambda x: x[0])
+graph = sorted(graph, key=lambda x: x[1])
+
+for x, y in graph:
+    print(x, y)
+```
+
+---
+
 ### [10845번 큐](https://www.acmicpc.net/problem/10845)
 
 push X: 정수 X를 큐에 넣는 연산이다.  
