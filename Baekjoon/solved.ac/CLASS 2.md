@@ -89,36 +89,6 @@ for i in data:
 
 ---
 
-### [1436번 영화감독 숌](https://www.acmicpc.net/problem/1436)
-
-숌은 첫 번째 영화의 제목은 세상의 종말 666, 두 번째 영화의 제목은 세상의 종말 1666 이렇게 이름을 지을 것이다.  
-일반화해서 생각하면, N번째 영화의 제목은 세상의 종말 (N번째로 작은 종말의 숫자) 와 같다.
-
-숌이 만든 N번째 영화의 제목에 들어간 숫자를 출력하는 프로그램을 작성하시오.
-숌은 이 시리즈를 항상 차례대로 만들고, 다른 영화는 만들지 않는다.
-
-```python
-import sys
-
-input = sys.stdin.readline
-
-n = int(input().rstrip())
-cnt = 0
-dooms = 666
-
-while True:
-    if '666' in str(dooms):
-        cnt += 1
-
-    if cnt == n:
-        print(dooms)
-        break
-
-    dooms += 1
-```
-
----
-
 ### [2751번 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
 
 N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로그램을 작성하시오.

@@ -26,7 +26,7 @@
 
 - [09 재귀 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20재귀.md)
 
-- [10 브루트 포스 (1, c++: 0 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
+- [10 브루트 포스 (3, c++: 0 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
 
 - [12 집합과 맵 (3, c++: 0 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
 
@@ -50,7 +50,7 @@
 
 - [CLASS 1 (36 / 36)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%201.md)
 
-- [CLASS 2 (20 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
+- [CLASS 2 (24 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
 
 - [CLASS 3 (8 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
 
