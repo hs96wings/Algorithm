@@ -18,23 +18,23 @@
 
 - [05 함수 (3 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/05%20함수.md)
 
-- [06 문자열 (10, c++: 7 / 10)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/06%20문자열.md)
+- [06 문자열 (10 / 10)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/06%20문자열.md)
 
-- [07 기본 수학 1 (3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/07%20기본%20수학%201.md)
+- [07 기본 수학 1 (4 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/07%20기본%20수학%201.md)
 
 - [07 기본 수학 2 (4 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
 
 - [09 재귀 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20재귀.md)
 
-- [10 브루트 포스 (3, c++: 0 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
+- [10 브루트 포스 (3 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
 
-- [12 집합과 맵 (3, c++: 0 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
+- [12 집합과 맵 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
 
-- [13 기하 1 (5, c++: 3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20기하%201.md)
+- [13 기하 1 (6 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20기하%201.md)
 
-- [14 정수론 및 조합론 (2, c++: 0 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
+- [14 정수론 및 조합론 (2 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
 
-- [15 백트래킹 (3, c++: 0 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20백트래킹.md)
+- [15 백트래킹 (3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20백트래킹.md)
 
 - [18 그리디 알고리즘 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20그리디%20알고리즘.md)
 
@@ -42,7 +42,7 @@
 
 - [20 큐, 덱 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
 
-- [25 그래프와 순회 (6, c++: 0 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
+- [25 그래프와 순회 (6 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
 
 #### solved.ac
 
