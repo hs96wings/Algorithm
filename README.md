@@ -8,7 +8,7 @@
 
 #### 단계별로 풀어보기
 
-- [01 입출력과 사칙연산 (14 / 14)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/01%20%입출력과%20사칙연산.md)
+- [01 입출력과 사칙연산 (14 / 14)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/01%20입출력과%20사칙연산.md)
 
 - [02 조건문 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/02%20조건문.md)
 
@@ -46,6 +46,8 @@
 
 - [20 큐, 덱 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
 
+- [22 이분 탐색 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/22%20이분%20탐색.md)
+
 - [23 우선순위 큐 (3 / 4)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/23%20우선순위%20큐.md)
 
 - [25 그래프와 순회 (7 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
@@ -58,7 +60,7 @@
 
 - [CLASS 1 (36 / 36)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%201.md)
 
-- [CLASS 2 (29 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
+- [CLASS 2 (32 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
 
 - [CLASS 3 (12 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
 
