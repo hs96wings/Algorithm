@@ -20,9 +20,9 @@
 
 - [06 문자열 (10 / 10)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/06%20문자열.md)
 
-- [07 기본 수학 1 (5 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/07%20기본%20수학%201.md)
+- [07 기본 수학 1 (8 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/07%20기본%20수학%201.md)
 
-- [08 기본 수학 2 (4 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
+- [08 기본 수학 2 (6 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
 
 - [09 재귀 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20재귀.md)
 
@@ -30,7 +30,7 @@
 
 - [11 정렬 (9 / 10)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20정렬.md)
 
-- [12 집합과 맵 (5 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
+- [12 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
 
 - [13 기하 1 (6 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20기하%201.md)
 
@@ -39,6 +39,8 @@
 - [15 백트래킹 (3 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20백트래킹.md)
 
 - [16 동적 계획법 1 (2 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
+
+- [17 누적 합 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/17%20누적%20합.md)
 
 - [18 그리디 알고리즘 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20그리디%20알고리즘.md)
 
@@ -54,14 +56,18 @@
 
 - [26 최단 경로 (1 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
 
+- [27 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20투%20포인터.md)
+
 #### solved.ac
 
 - [새싹](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/새싹.md)
 
 - [CLASS 1 (36 / 36)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%201.md)
 
-- [CLASS 2 (32 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
+- [CLASS 2 (33 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
 
-- [CLASS 3 (12 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
+- [CLASS 3 (13 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
 
-- [CLASS 4 (2 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%204.md)
+- [CLASS 4 (3 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%204.md)
+
+- CLASS 5 (3 / 48)
