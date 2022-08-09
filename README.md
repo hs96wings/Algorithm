@@ -44,7 +44,7 @@
 
 - [18 그리디 알고리즘 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20그리디%20알고리즘.md)
 
-- [19 스택 (2 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20스택.md)
+- [19 스택 (4 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20스택.md)
 
 - [20 큐, 덱 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
 
@@ -64,7 +64,7 @@
 
 - [CLASS 1 (36 / 36)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%201.md)
 
-- [CLASS 2 (33 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
+- [CLASS 2 (34 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
 
 - [CLASS 3 (13 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
 
