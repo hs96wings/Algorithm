@@ -54,7 +54,7 @@
 
 - [25 그래프와 순회 (7 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
 
-- [26 최단 경로 (1 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
+- [26 최단 경로 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
 
 - [27 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20투%20포인터.md)
 
