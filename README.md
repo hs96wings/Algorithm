@@ -46,7 +46,7 @@
 
 - [19 스택 (4 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20스택.md)
 
-- [20 큐, 덱 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
+- [20 큐, 덱 (6 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
 
 - [22 이분 탐색 (5 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/22%20이분%20탐색.md)
 
