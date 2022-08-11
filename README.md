@@ -34,7 +34,7 @@
 
 - [13 기하 1 (6 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20기하%201.md)
 
-- [14 정수론 및 조합론 (6 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
+- [14 정수론 및 조합론 (8 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
 
 - [15 백트래킹 (4 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20백트래킹.md)
 
