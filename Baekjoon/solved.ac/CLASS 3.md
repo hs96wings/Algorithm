@@ -76,3 +76,64 @@ for i in range(m):
     str = input().rstrip()
     print(data[str])
 ```
+
+---
+
+### [9095번 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
+
+정수 4를 1, 2, 3의 합으로 나타내는 방법은 총 7가지가 있다.  
+합을 나타낼 때는 수를 1개 이상 사용해야 한다.
+
+- 1+1+1+1
+- 1+1+2
+- 1+2+1
+- 2+1+1
+- 2+2
+- 1+3
+- 3+1
+
+정수 n이 주어졌을 때, n을 1, 2, 3의 합으로 나타내는 방법의 수를 구하는 프로그램을 작성하시오.
+
+```python
+case = int(input())
+dp = [0, 1, 2, 4]
+
+for i in range(4, 11):
+    dp.append(dp[i - 3] + dp[i - 2] + dp[i - 1])
+
+for _ in range(case):
+    n = int(input())
+    print(dp[n])
+```
+
+---
+
+### [11726번 2xn 타일링](https://www.acmicpc.net/problem/11726)
+
+2×n 크기의 직사각형을 1×2, 2×1 타일로 채우는 방법의 수를 구하는 프로그램을 작성하시오.
+
+```python
+n = int(input())
+dp = [0, 1, 2]
+
+for i in range(3, n + 1):
+    dp.append(dp[i - 2] + dp[i - 1])
+
+print(dp[n] % 10007)
+```
+
+---
+
+### [11727번 2xn 타일링 2](https://www.acmicpc.net/problem/11727)
+
+2×n 직사각형을 1×2, 2×1과 2×2 타일로 채우는 방법의 수를 구하는 프로그램을 작성하시오.
+
+```python
+n = int(input())
+dp = [0, 1, 3]
+
+for i in range(3, n + 1):
+    dp.append(dp[i - 1] + 2 * dp[i - 2])
+
+print(dp[n] % 10007)
+```

@@ -28,7 +28,7 @@
 
 - [10 브루트 포스 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
 
-- [11 정렬 (9 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20정렬.md)
+- [11 정렬 (10 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20정렬.md)
 
 - [12 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
 
@@ -38,11 +38,11 @@
 
 - [15 백트래킹 (4 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20백트래킹.md)
 
-- [16 동적 계획법 1 (2 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
+- [16 동적 계획법 1 (4 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
 
 - [17 누적 합 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/17%20누적%20합.md)
 
-- [18 그리디 알고리즘 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20그리디%20알고리즘.md)
+- [18 그리디 알고리즘 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20그리디%20알고리즘.md)
 
 - [19 스택 (4 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20스택.md)
 
@@ -64,10 +64,10 @@
 
 - [CLASS 1 (36 / 36)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%201.md)
 
-- [CLASS 2 (34 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
+- [CLASS 2 (37 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
 
-- [CLASS 3 (13 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
+- [CLASS 3 (19 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
 
-- [CLASS 4 (3 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%204.md)
+- [CLASS 4 (4 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%204.md)
 
-- CLASS 5 (3 / 48)
+- [CLASS 5 (3 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%205.md)
