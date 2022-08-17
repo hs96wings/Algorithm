@@ -58,6 +58,8 @@
 
 - [27 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20투%20포인터.md)
 
+- [29 트리 (1 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/29%20트리.md)
+
 #### solved.ac
 
 - [새싹](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/새싹.md)
