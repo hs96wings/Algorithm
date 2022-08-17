@@ -137,3 +137,55 @@ for i in range(3, n + 1):
 
 print(dp[n] % 10007)
 ```
+
+---
+
+### [11724번 연결 요소의 개수](https://www.acmicpc.net/problem/11724)
+
+방향 없는 그래프가 주어졌을 때,  
+연결 요소 (Connected Component)의 개수를 구하는 프로그램을 작성하시오.
+
+```text
+그래프의 개수 구하기 문제
+```
+
+```python
+from collections import deque
+import sys
+input = sys.stdin.readline
+
+def bfs(start):
+    queue = deque([start])
+    visited[start] = True
+
+    while queue:
+        v = queue.popleft()
+
+        for i in graph[v]:
+            if not visited[i]:
+                queue.append(i)
+                visited[i] = True
+
+n, m = map(int, input().split())
+graph = [[] for _ in range(n + 1)]
+visited = [0] * (n + 1)
+cnt = 0
+
+for _ in range(m):
+    u, v = map(int, input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+
+for i in range(1, n + 1):
+    if not visited[i]:
+        # 단일 노드일 경우
+        if not graph[i]:
+            cnt += 1
+            visited[i] = True
+        # 연결된 노드일 경우
+        else:
+            bfs(i)
+            cnt += 1
+
+print(cnt)
+```
