@@ -36,8 +36,6 @@
 
 - [14 정수론 및 조합론 (8 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
 
-- [15 백트래킹 (4 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20백트래킹.md)
-
 - [16 동적 계획법 1 (4 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
 
 - [17 누적 합 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/17%20누적%20합.md)
@@ -52,13 +50,13 @@
 
 - [23 우선순위 큐 (3 / 4)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/23%20우선순위%20큐.md)
 
-- [25 그래프와 순회 (7 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
+- [25 그래프와 순회 (13 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
 
 - [26 최단 경로 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
 
 - [27 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20투%20포인터.md)
 
-- [29 트리 (1 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/29%20트리.md)
+- [29 트리 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/29%20트리.md)
 
 #### solved.ac
 
@@ -68,7 +66,7 @@
 
 - [CLASS 2 (37 / 40)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%202.md)
 
-- [CLASS 3 (24 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
+- [CLASS 3 (26 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%203.md)
 
 - [CLASS 4 (7 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%204.md)
 
