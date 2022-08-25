@@ -71,3 +71,14 @@
 - [CLASS 4 (7 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%204.md)
 
 - [CLASS 5 (3 / 48)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/solved.ac/CLASS%205.md)
+
+#### [분류없음](https://github.com/hs96wings/Algorithm/blob/main/분류없음.md)
+
+- 그리디 알고리즘
+  > 5585, 2720, 2864, 14659, 10162, 22864, 15881, 10610
+- DFS / BFS
+  > 1926, 2468, 4963, 16953, 1743, 1303, 11123, 1937, 3184, 10026, 2589, 2573, 16948, 17086, 16173, 16174, 14940, 16397
+- 다이나믹 프로그래밍
+  > 2193, 11057
+
+#### [틀린문제](https://github.com/hs96wings/Algorithm/blob/main/틀린문제.md)
