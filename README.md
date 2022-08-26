@@ -80,7 +80,7 @@
   > 5585, 2720, 2864, 14659, 10162, 22864, 15881, 10610
 - [그래프 탐색](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/그래프%20탐색.md)
   > 1926, 2468, 4963, 16953, 1743, 1303, 11123, 1937, 3184, 10026, 2589, 2573, 16948, 17086, 16173, 16174, 14940, 16397, 17265, 14716, 13565, 17129
-- [그래프 탐색](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/DP.md)
+- [다이나믹 프로그래밍](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/다이나믹%20프로그래밍.md)
   > 2193, 11057
 
 #### [틀린문제](https://github.com/hs96wings/Algorithm/blob/main/틀린문제.md)
