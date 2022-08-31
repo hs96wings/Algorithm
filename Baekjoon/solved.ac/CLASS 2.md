@@ -165,3 +165,155 @@ for i in range(n):
 
 print(result % m)
 ```
+
+---
+
+### [1018번 체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
+
+지민이는 자신의 저택에서 MN개의 단위 정사각형으로 나누어져 있는 M×N 크기의 보드를 찾았다.  
+어떤 정사각형은 검은색으로 칠해져 있고, 나머지는 흰색으로 칠해져 있다.  
+지민이는 이 보드를 잘라서 8×8 크기의 체스판으로 만들려고 한다.
+
+체스판은 검은색과 흰색이 번갈아서 칠해져 있어야 한다.  
+구체적으로, 각 칸이 검은색과 흰색 중 하나로 색칠되어 있고, 변을 공유하는 두 개의 사각형은 다른 색으로 칠해져 있어야 한다.  
+따라서 이 정의를 따르면 체스판을 색칠하는 경우는 두 가지뿐이다.  
+하나는 맨 왼쪽 위 칸이 흰색인 경우, 하나는 검은색인 경우이다.
+
+보드가 체스판처럼 칠해져 있다는 보장이 없어서,  
+지민이는 8×8 크기의 체스판으로 잘라낸 후에 몇 개의 정사각형을 다시 칠해야겠다고 생각했다.  
+당연히 8\*8 크기는 아무데서나 골라도 된다.  
+지민이가 다시 칠해야 하는 정사각형의 최소 개수를 구하는 프로그램을 작성하시오.
+
+```text
+브루트포스는 처음 접해봐서 어떻게 풀어야할지 막막했다
+```
+
+```python
+import sys
+input = sys.stdin.readline
+
+size = 8
+str1 = 'WBWBWBWB'
+str2 = 'BWBWBWBW'
+pivot1 = [str1, str2, str1, str2, str1, str2, str1, str2]
+pivot2 = [str2, str1, str2, str1, str2, str1, str2, str1]
+
+n, m = map(int, input().split())
+board = [input().rstrip() for _ in range(n)]
+result = int(1e9)
+
+for i in range(n - size + 1):
+    for j in range(m - size + 1):
+        cnt = 0
+        for p in range(size):
+            for q in range(size):
+                if board[i+p][j+q] != pivot1[p][q]:
+                    cnt += 1
+        result = min(result, cnt)
+        cnt = 0
+        for p in range(size):
+            for q in range(size):
+                if board[i+p][j+q] != pivot2[p][q]:
+                    cnt += 1
+        result = min(result, cnt)
+print(result)
+```
+
+---
+
+### [18111번 마인크래프트](https://www.acmicpc.net/problem/18111)
+
+팀 레드시프트는 대회 준비를 하다가 지루해져서 샌드박스 게임인 ‘마인크래프트’를 켰다.  
+마인크래프트는 1 × 1 × 1(세로, 가로, 높이) 크기의 블록들로 이루어진 3차원 세계에서 자유롭게 땅을 파거나 집을 지을 수 있는 게임이다.
+
+목재를 충분히 모은 lvalue는 집을 짓기로 하였다.  
+하지만 고르지 않은 땅에는 집을 지을 수 없기 때문에 땅의 높이를 모두 동일하게 만드는 ‘땅 고르기’ 작업을 해야 한다.
+
+lvalue는 세로 N, 가로 M 크기의 집터를 골랐다.  
+집터 맨 왼쪽 위의 좌표는 (0, 0)이다. 우리의 목적은 이 집터 내의 땅의 높이를 일정하게 바꾸는 것이다.  
+우리는 다음과 같은 두 종류의 작업을 할 수 있다.
+
+좌표 (i, j)의 가장 위에 있는 블록을 제거하여 인벤토리에 넣는다.  
+인벤토리에서 블록 하나를 꺼내어 좌표 (i, j)의 가장 위에 있는 블록 위에 놓는다.  
+1번 작업은 2초가 걸리며, 2번 작업은 1초가 걸린다. 밤에는 무서운 몬스터들이 나오기 때문에 최대한 빨리 땅 고르기 작업을 마쳐야 한다.  
+‘땅 고르기’ 작업에 걸리는 최소 시간과 그 경우 땅의 높이를 출력하시오.
+
+단, 집터 아래에 동굴 등 빈 공간은 존재하지 않으며, 집터 바깥에서 블록을 가져올 수 없다.  
+또한, 작업을 시작할 때 인벤토리에는 B개의 블록이 들어 있다.  
+땅의 높이는 256블록을 초과할 수 없으며, 음수가 될 수 없다.
+
+```text
+시간 초과로 인해 PyPy3로 제출함
+```
+
+```python
+import sys
+input = sys.stdin.readline
+
+n, m, b = map(int, input().split())
+graph = [list(map(int, input().split())) for _ in range(n)]
+result = int(1e9)
+pos = 0
+
+# 0층부터 257층까지
+for lv in range(257):
+    lo, hi = 0, 0
+
+    for i in range(n):
+        for j in range(m):
+
+            # 쌓인 블록이 층수보다 클 경우
+            if graph[i][j] >= lv:
+                hi += graph[i][j] - lv
+            # 작을 경우
+            else:
+                lo += lv - graph[i][j]
+
+    # 인벤토리가 음수가 되면 안 되므로 파낸 블록과 인벤토리의 합이 더 커야함
+    if hi + b >= lo:
+        # 최저 시간 비교
+        if lo + (hi * 2) <= result:
+            result = lo + (hi * 2)
+            pos = lv
+
+print(result, pos)
+```
+
+```text
+0~256까지 탐색하지 말고 최저 높이와 최고 높이를 구해 범위를 특정할 수 있지만 0~256까지 탐색했을 땐 800ms, 범위 특정 시 816ms로 전부 탐색했을 때가 조금 더 빨랐다
+```
+
+```python
+import sys
+input = sys.stdin.readline
+
+n, m, b = map(int, input().split())
+graph = [list(map(int, input().split())) for _ in range(n)]
+lo_block = min([min(x) for x in graph])
+hi_block = max([max(x) for x in graph])
+result = int(1e9)
+pos = 0
+
+# 최저 높이부터 최고 높이까지
+for lv in range(lo_block, hi_block + 1):
+    lo, hi = 0, 0
+
+    for i in range(n):
+        for j in range(m):
+
+            # 쌓인 블록이 층수보다 클 경우
+            if graph[i][j] >= lv:
+                hi += graph[i][j] - lv
+            # 작을 경우
+            else:
+                lo += lv - graph[i][j]
+
+    # 인벤토리가 음수가 되면 안 되므로 파낸 블록과 인벤토리의 합이 더 커야함
+    if hi + b >= lo:
+        # 최저 시간 비교
+        if lo + (hi * 2) <= result:
+            result = lo + (hi * 2)
+            pos = lv
+
+print(result, pos)
+```

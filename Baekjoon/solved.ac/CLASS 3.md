@@ -9,7 +9,43 @@ toggle x: S에 x가 있으면 x를 제거하고, 없으면 x를 추가한다. (1
 all: S를 {1, 2, ..., 20} 으로 바꾼다.  
 empty: S를 공집합으로 바꾼다.
 
+```text
+큐랑 스택에 이 문제와 비슷한 문제가 있어 당연히 집합을 이용해서 푸는줄 알았는데 비트마스크라는걸 이용해서 푸는거였다
+```
+
 ```python
+# 비트마스크
+import sys
+input = sys.stdin.readline
+
+S = 0 # 공집합
+m = int(input())
+
+for i in range(m):
+    tmp = input().rstrip().split()
+
+    # all or empty
+    if len(tmp) == 1:
+        if tmp[0] == 'all':
+            S = (1 << 20) - 1
+        elif tmp[0] == 'empty':
+            S = 0
+    else:
+        op = tmp[0]
+        num = int(tmp[1]) - 1
+
+        if op == 'add':
+            S |= (1 << num)
+        elif op == 'remove':
+            S &= ~(1 << num)
+        elif op == 'check':
+            print(1 if S & (1 << num) else 0)
+        elif op == 'toggle':
+            S ^= (1 << num)
+```
+
+```python
+# 집합
 import sys
 
 m = int(sys.stdin.readline())
