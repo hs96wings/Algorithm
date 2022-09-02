@@ -24,11 +24,11 @@
 
 - [08 기본 수학 2 (6 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
 
-- [09 재귀 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20재귀.md)
+- [09 재귀 (3 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20재귀.md)
 
 - [10 브루트 포스 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
 
-- [11 정렬 (10 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20정렬.md)
+- [11 정렬 (11 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20정렬.md)
 
 - [12 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
 
@@ -77,13 +77,13 @@
 문제가 많아져서 분할함
 
 - [그리디 알고리즘](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/그리디%20알고리즘.md)
-  > 5585, 2720, 2864, 14659, 10162, 22864, 15881, 10610
+  > 5585, 2720, 2864, 14659, 10162, 22864, 15881, 10610, 1213
 - [그래프 탐색](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/그래프%20탐색.md)
-  > 1926, 2468, 4963, 16953, 1743, 1303, 11123, 1937, 3184, 10026, 2589, 2573, 16948, 17086, 16173, 16174, 14940, 16397, 17265, 14716, 13565, 17129, 21736, 3187, 4179, 3055, 5014
+  > 1926, 2468, 4963, 16953, 1743, 1303, 11123, 1937, 3184, 10026, 2589, 2573, 16948, 17086, 16173, 16174, 14940, 16397, 17265, 14716, 13565, 17129, 21736, 3187, 4179, 3055, 5014, 1261, 2665
 - [다이나믹 프로그래밍](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/다이나믹%20프로그래밍.md)
   > 2193, 11057
 - [자료구조](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/분류없음/자료구조.md)
-  > 9935
+  > 9935, 17413
 
 #### [틀린문제](https://github.com/hs96wings/Algorithm/blob/main/틀린문제.md)
 
