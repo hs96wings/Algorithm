@@ -391,3 +391,187 @@ for i in range(b):
         print('*', end='')
     print()
 ```
+
+---
+
+### [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+
+```python
+def solution(survey, choices):
+    scores = [0, 3, 2, 1, 0, 1, 2, 3]
+    dic = {'R': 0, 'T': 0, 'C': 0, 'F': 0, 'J': 0, 'M': 0, 'A': 0, 'N': 0}
+    order = ['RT', 'CF', 'JM', 'AN']
+    answer = ''
+    for i in range(len(survey)):
+        if choices[i] >= 5:
+            dic[survey[i][1]] += scores[choices[i]]
+        else:
+            dic[survey[i][0]] += scores[choices[i]]
+
+    for i in range(4):
+        if dic[order[i][0]] > dic[order[i][1]]:
+            answer += order[i][0]
+        elif dic[order[i][0]] == dic[order[i][1]]:
+            if ord(order[i][0]) > ord(order[i][1]):
+                answer += order[i][1]
+            else:
+                answer += order[i][0]
+        else:
+            answer += order[i][1]
+    return answer
+```
+
+---
+
+### [두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)
+
+```python
+def solution(a, b):
+    answer = 0
+    for i in range(min(a, b), max(a, b) + 1):
+        answer += i
+    return answer
+```
+
+---
+
+### [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+
+```python
+def solution(n):
+    answer = 0
+    t = n ** 0.5
+
+    if n // t == t:
+        answer = (int(t) + 1) ** 2
+    else:
+        answer = -1
+    return answer
+```
+
+---
+
+### [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)
+
+```python
+def solution(s):
+    return s[len(s) // 2] if len(s) % 2 == 1 else s[len(s) // 2 - 1: len(s) // 2 + 1]
+```
+
+---
+
+### [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925)
+
+```python
+def solution(s):
+    return int(s)
+```
+
+---
+
+### [내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
+
+```python
+def solution(a, b):
+    return sum([x * y for x, y in zip(a, b)])
+```
+
+---
+
+### [행렬의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/12950)
+
+```python
+def solution(arr1, arr2):
+    for i in range(len(arr1)):
+        for j in range(len(arr1[i])):
+            arr1[i][j] += arr2[i][j]
+    return arr1
+```
+
+---
+
+### [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926)
+
+```python
+def solution(s, n):
+    answer = ''
+    for i in range(len(s)):
+        tmp = ord(s[i]) + n
+        # 띄어쓰기
+        if ord(s[i]) == 32:
+            answer += ' '
+        else:
+            # 대문자일 경우
+            if 65 <= ord(s[i]) <= 90:
+                if tmp > 90:
+                    tmp -= 26
+            else:
+                if tmp > 122:
+                    tmp -= 26
+            answer += chr(tmp)
+    return answer
+```
+
+---
+
+### [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+
+```python
+def solution(answers):
+    answer = []
+    stu1 = [1, 2, 3, 4, 5]
+    stu2 = [2, 1, 2, 3, 2, 4, 2, 5]
+    stu3 = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
+    score1 = score2 = score3 = 0
+    q_num = len(answers)
+
+    if len(stu1) < q_num:
+        stu1 = stu1 * (q_num // len(stu1) + 1)
+    if len(stu2) < q_num:
+        stu2 = stu2 * (q_num // len(stu2) + 1)
+    if len(stu3) < q_num:
+        stu3 = stu3 * (q_num // len(stu3) + 1)
+
+    for i in range(q_num):
+        if stu1[i] == answers[i]:
+            score1 += 1
+        if stu2[i] == answers[i]:
+            score2 += 1
+        if stu3[i] == answers[i]:
+            score3 += 1
+
+    hi_score = max(score1, score2, score3)
+    if score1 == hi_score:
+        answer.append(1)
+    if score2 == hi_score:
+        answer.append(2)
+    if score3 == hi_score:
+        answer.append(3)
+    return answer
+```
+
+---
+
+### [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
+
+```python
+from collections import deque
+
+def solution(s):
+    data = {'zero': '0', 'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5', 'six': '6', 'seven': '7', 'eight': '8', 'nine': '9'}
+    answer = ''
+    tmp = ''
+    q = deque(list(s))
+
+    while q:
+        t = q.popleft()
+
+        if t.isdigit():
+            answer += t
+        else:
+            tmp += t
+            if tmp in data:
+                answer += data[tmp]
+                tmp = ''
+    return int(answer)
+```
