@@ -50,13 +50,17 @@
 
 - [23 우선순위 큐 (3 / 4)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/23%20우선순위%20큐.md)
 
-- [25 그래프와 순회 (13 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
+- [25 그래프와 순회 (14 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
 
-- [26 최단 경로 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
+- [26 최단 경로 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
 
 - [27 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20투%20포인터.md)
 
+- [28 동적 계획법과 최단거리 역추적 (2 / 9)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/28%20동적%20계획법과%20최단거리%20역추적.md)
+
 - [29 트리 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/29%20트리.md)
+
+- [34 동적 계획법 3 (1 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
 
 #### solved.ac
 
