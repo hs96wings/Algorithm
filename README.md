@@ -24,11 +24,11 @@
 
 - [08 기본 수학 2 (6 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
 
-- [09 재귀 (3 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20재귀.md)
+- [09 정렬 (11 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20정렬.md)
 
-- [10 브루트 포스 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20브루트%20포스.md)
+- [10 재귀 (3 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20재귀.md)
 
-- [11 정렬 (11 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20정렬.md)
+- [11 브루트 포스 (5 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20브루트%20포스.md)
 
 - [12 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
 
@@ -36,7 +36,7 @@
 
 - [14 정수론 및 조합론 (8 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
 
-- [16 동적 계획법 1 (4 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
+- [16 동적 계획법 1 (8 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
 
 - [17 누적 합 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/17%20누적%20합.md)
 
@@ -97,7 +97,7 @@
 
 - [깊이/너비 우선 탐색(DFS/BFS) (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/그래프%20탐색.md)
 
-- [스택/큐 (2 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/스택%20큐.md)
+- [스택/큐 (3 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/스택%20큐.md)
 
 - [정렬 (1 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/정렬.md)
 
@@ -105,7 +105,9 @@
 
 - [완전탐색 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/완전탐색.md)
 
-- [동적계획법 (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/동적계획법.md)
+- [동적계획법(Dynamic Programming) (1 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/동적계획법.md)
+
+- [탐욕법(Greedy) (2 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Programmers/코딩테스트%20고득점%20Kit/탐욕법.md)
 
 #### Level
 
