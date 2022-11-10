@@ -14,7 +14,7 @@
 
 - [03 반복문 (12 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/03%20반복문.md)
 
-- [04 1차원 배열 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/04%201차원%20배열.md)
+- [04 1차원 배열 (9 / 9)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/04%201차원%20배열.md)
 
 - [05 함수 (3 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/05%20함수.md)
 
@@ -24,43 +24,45 @@
 
 - [08 기본 수학 2 (6 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
 
-- [09 정렬 (11 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%20정렬.md)
+- [09 2차원 배열 (2 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%202차원%20배열%202.md)
 
-- [10 재귀 (3 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20재귀.md)
+- [10 정렬 (11 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20정렬.md)
 
-- [11 브루트 포스 (5 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20브루트%20포스.md)
+- [11 재귀 (3 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/11%20재귀.md)
 
-- [12 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20집합과%20맵.md)
+- [12 브루트 포스 (5 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/12%20브루트%20포스.md)
 
-- [13 기하 1 (6 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20기하%201.md)
+- [13 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20집합과%20맵.md)
 
-- [14 정수론 및 조합론 (8 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20정수론%20및%20조합론.md)
+- [14 기하 1 (6 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20기하%201.md)
 
-- [16 동적 계획법 1 (8 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
+- [15 정수론 및 조합론 (8 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20정수론%20및%20조합론.md)
 
-- [17 누적 합 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/17%20누적%20합.md)
+- [17 동적 계획법 1 (8 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
 
-- [18 그리디 알고리즘 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20그리디%20알고리즘.md)
+- [18 누적 합 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/18%20누적%20합.md)
 
-- [19 스택 (5 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20스택.md)
+- [19 그리디 알고리즘 (2 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/19%20그리디%20알고리즘.md)
 
-- [20 큐, 덱 (6 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20큐,%20덱.md)
+- [20 스택 (5 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20스택.md)
 
-- [22 이분 탐색 (5 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/22%20이분%20탐색.md)
+- [21 큐, 덱 (6 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/21%20큐,%20덱.md)
 
-- [23 우선순위 큐 (3 / 4)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/23%20우선순위%20큐.md)
+- [23 이분 탐색 (5 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/23%20이분%20탐색.md)
 
-- [25 그래프와 순회 (14 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/25%20그래프와%20순회.md)
+- [24 우선순위 큐 (3 / 4)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/24%20우선순위%20큐.md)
 
-- [26 최단 경로 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/26%20최단%20경로.md)
+- [27 그래프와 순회 (14 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20그래프와%20순회.md)
 
-- [27 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/27%20투%20포인터.md)
+- [28 최단 경로 (3 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/28%20최단%20경로.md)
 
-- [28 동적 계획법과 최단거리 역추적 (2 / 9)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/28%20동적%20계획법과%20최단거리%20역추적.md)
+- [29 투 포인터 (4 / 5)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/29%20투%20포인터.md)
 
-- [29 트리 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/29%20트리.md)
+- [30 동적 계획법과 최단거리 역추적 (2 / 9)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/30%20동적%20계획법과%20최단거리%20역추적.md)
 
-- [34 동적 계획법 3 (1 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
+- [31 트리 (2 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/31%20트리.md)
+
+- [36 동적 계획법 3 (1 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/36%20동적%20계획법%201.md)
 
 #### solved.ac
 
