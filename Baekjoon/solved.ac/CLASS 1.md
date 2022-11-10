@@ -1,4 +1,4 @@
-### [2475번 검증수](https://www.acmicpc.net/problem/2475)
+### [2475번 검증수](https://boj.kr/2475)
 
 검증수는 고유번호의 처음 5자리에 들어가는 5개의 숫자를 각각 제곱한 수의 합을 10으로 나눈 나머지이다.
 
@@ -39,7 +39,7 @@ print(sum % 10)
 
 ---
 
-### [2920번 음계](https://www.acmicpc.net/problem/2920)
+### [2920번 음계](https://boj.kr/2920)
 
 1부터 8까지 차례대로 연주한다면 ascending, 8부터 1까지 차례대로 연주한다면 descending, 둘 다 아니라면 mixed 이다.  
 연주한 순서가 주어졌을 때, 이것이 ascending인지, descending인지, 아니면 mixed인지 판별하는 프로그램을 작성하시오.
