@@ -24,7 +24,7 @@
 
 - [08 기본 수학 2 (6 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/08%20기본%20수학%202.md)
 
-- [09 2차원 배열 (2 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%202차원%20배열%202.md)
+- [09 2차원 배열 (3 / 3)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/09%202차원%20배열%202.md)
 
 - [10 정렬 (11 / 11)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/10%20정렬.md)
 
