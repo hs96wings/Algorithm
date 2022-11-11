@@ -34,9 +34,9 @@
 
 - [13 집합과 맵 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/13%20집합과%20맵.md)
 
-- [14 기하 1 (6 / 8)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20기하%201.md)
+- [14 기하 1 (6 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/14%20기하%201.md)
 
-- [15 정수론 및 조합론 (8 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20정수론%20및%20조합론.md)
+- [15 정수론 및 조합론 (9 / 12)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/15%20정수론%20및%20조합론.md)
 
 - [17 동적 계획법 1 (8 / 16)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/16%20동적%20계획법%201.md)
 
@@ -46,7 +46,7 @@
 
 - [20 스택 (5 / 6)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/20%20스택.md)
 
-- [21 큐, 덱 (6 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/21%20큐,%20덱.md)
+- [21 큐, 덱 (7 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/21%20큐,%20덱.md)
 
 - [23 이분 탐색 (5 / 7)](https://github.com/hs96wings/Algorithm/blob/main/Baekjoon/단계별로%20풀어보기/23%20이분%20탐색.md)
 
